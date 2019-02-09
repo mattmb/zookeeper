@@ -93,6 +93,7 @@ public class ZooKeeperServerMain {
      */
     public void runFromConfig(ServerConfig config) throws IOException {
         LOG.info("Starting server");
+        LOG.info("MMB");
         try {
             // Note that this thread isn't going to be doing anything else,
             // so rather than spawning another thread, we will just call
